@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 2 - Formulários</title>
+        <meta charset="UTF-8" >
+    </head>
+    <body>
+
+        <!--  Serve para identificar, formatar,manipular um conjunto de elemtnos usando o css... -->
+        <div class="">
+            <h3> Formulários </h3>
+
+            <form class="" method="get">
+
+                <!--O atributo value é o q vai la para o servidor, valor que será salvo -->
+                <label for="d">Nome:</label> <br>
+                <input type="text" name="nome" value="" > <br><br>
+
+                <label for="ds">Sexo:</label> <br>
+
+                <input type="radio" name="sexo" value="masculino" id="radioMasc">
+                <label for="radioMasc"> Masculino</label>
+
+                <input type="radio" name="sexo" value="feminino" id="radioFemi">
+                <label for="radioFemi"> Feminino</label> <br><br>
+
+                <label for="w">Interesses: </label> <br>
+
+                <input type="checkbox" name="intereses[]" value="esporte" id="chEsp" > 
+                <label for="chEsp">Esportes</label> <br>
+
+                <input type="checkbox" name="intereses[]" value="carros" id="chCarros" > 
+                <label for="chCarros">Carros</label> <br>
+
+                <input type="checkbox" name="intereses[]" value="motos" id="chMotos" > 
+                <label for="chMotos">Motos</label> <br><br>
+
+                <label  > Cidade </label> <br>
+                <select class="" name="cidade">
+                    <option value="">Selecione uma cidade</option>
+                    <option value="1">Paranavaí</option>
+                    <option value="2">Maringá</option>
+                    <option value="3">Londrina</option>
+
+
+
+                </select>
+
+                <br><br>
+                <input type="submit" name="botao" value="Enviar">
+
+            </form>
+
+        </div>
+
+    </body> 
+</html>
