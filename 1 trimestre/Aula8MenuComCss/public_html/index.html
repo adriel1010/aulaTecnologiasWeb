@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula - 08 Menu com css</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            .menu-horizontal ul {
+                list-style-type: none;
+                background-color: #666666;
+                text-align: center;
+
+            }
+            .menu-horizontal ul li{
+                display: inline;
+            }
+            .menu-horizontal ul li a{
+                background-color: #666666;
+                color: #ffffff;
+                text-decoration: none;
+                padding: 10px 25px;
+                display: inline-block;
+            }
+            .menu-horizontal ul li a:hover{
+                color: #ff3300;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="menu-horizontal">
+            <ul>
+                <li><a href="#"> <i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#"> Página Inicial</a></li>
+                <li><a href="#"> IFPR</a></li>
+                <li><a href="#"> Tópico Especiais</a></li>
+                <li><a href="#"> <i class="fa fa-info" aria-hidden="true"></i>  Sobre</a></li> 
+                <li><a href="#"> <i class="fa fa-envelope-open-o" aria-hidden="true"></i> Contatos</a></li>
+            </ul>
+
+        </div>
+    </body>
+</html>
