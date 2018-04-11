@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Gloria+Hallelujah');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cabin;
+}
+
+#login{
+    text-align: center;
+    margin: 20px auto; 
+    border: solid 1px #000000;
+    width: 25%;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+body{
+    background-color: #DFDFDF;    
+   
+}
+
+#login form input{
+    margin-bottom: 15px;
+}
+
+#login .campo{
+    padding: 5px 15px;
+} 
+
+#login .botao{
+    padding: 10px 25px;
+    border: solid 1px #BFBFBF;
+    background-color: #DFDFDF;
+}
+
+#login .entrar.botao{
+    background-color: #00ff33;
+    color: #990033;
+}
+
