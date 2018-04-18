@@ -11,6 +11,15 @@
                 margin: 0px;
                 padding: 0px;
             }
+
+            .centralizado{
+                text-align: center;
+            }
+
+            .topo{
+
+            }
+
             .menu-horizontal ul {
                 list-style-type: none;
                 background-color: #666666;
@@ -32,9 +41,75 @@
                 color: #ff3300;
             }
 
+            img{
+                height: 100px;
+            }
+
+            .lateral{
+                float: left;
+                background-color: #f2f2f2;
+                width: 22%;
+                height: 100%;
+            }
+            
+            .lateral ul{
+                width: 100%;
+                list-style-type: none;
+                
+            }
+            
+            .lateral ul li a{ 
+                color: #009900;
+                text-decoration: none; 
+                display: block; 
+                padding: 5px 5px 5px 20px;
+            }
+            
+            .lateral h4{
+                margin: 20px;
+            }
+            
+            .lateral ul li a:hover{
+                color: #cc0033;
+                background-color: #0000cc;
+            }
+
+            .conteudo{
+                float: left;
+                width: 78%;
+                background-color: #ffffff;
+            }
+
+            .limparFloat{
+                clear: both;
+            }
+
+            .rodape{
+                background-color: #f2f2f2; 
+            }
+            
+            .meio{                
+                background-color: #f2f2f2;
+            }
+
+            @media screen and (max-width: 800px){
+                .lateral, .conteudo{
+                    width: 100%;   
+                }
+            }
+
         </style>
     </head>
     <body>
+
+
+        <div class="topo centralizado">
+            <img src="http://www.telemacoborba.pr.gov.br/images/2018-materias/marco/ifpr_logo.jpg" />
+
+        </div>
+
+
+
         <div class="menu-horizontal">
             <ul>
                 <li><a href="#"> <i class="fa fa-home"></i> Home</a></li>
@@ -46,5 +121,59 @@
             </ul>
 
         </div>
+
+        <div class="meio">
+
+
+
+            <div class="lateral">
+                <h4>Menu Lateral</h4>
+
+                <ul>
+                    <li><a href="#"> <i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#"> Página Inicial</a></li>
+                    <li><a href="#"> IFPR</a></li>
+                    <li><a href="#"> Tópico Especiais</a></li>
+                    <li><a href="#"> <i class="fa fa-info" aria-hidden="true"></i>  Sobre</a></li> 
+                    <li><a href="#"> <i class="fa fa-envelope-open-o" aria-hidden="true"></i> Contatos</a></li>
+                </ul>
+
+
+
+            </div>
+
+            <div class="conteudo">
+                <h3>Conteúdo do site</h3>
+
+                <h4> What is Lorem Ipsum? </h4>
+
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+
+                <h4>Where does it come from?</h4>
+
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and</p>
+
+
+
+            </div>
+
+            <div class="limparFloat">
+
+            </div>
+
+        </div>
+
+        <div class="rodape centralizado">
+            Desenvolvido por Adriel Carlos Dias <br>
+            IFPR - Campus Paranavaí
+
+        </div>
+
+
+
     </body>
 </html>
