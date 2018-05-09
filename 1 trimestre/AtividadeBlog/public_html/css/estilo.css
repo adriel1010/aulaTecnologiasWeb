@@ -20,6 +20,35 @@ body{
 
 }
 
+.postagem{
+   width: 900px;
+   background-color: #ffffff;
+   margin: auto;
+   text-align: center;
+   border: solid 1px #000000;
+}
+
+.postagem table{
+    margin: 0px auto;
+}
+
+.comentario{
+    margin-right: 5px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.btEnviar{ 
+   border: solid 1px #000000;
+    width: 10%;
+    background-color: #cccccc;
+    padding: 8px;
+}
+
+.postagem h1{
+    text-align: center;
+}
+
 #login form input{
     margin-bottom: 15px;
 }
@@ -60,7 +89,7 @@ body{
 
 .corpo{
     width: 100%;
-    background-color: #ff3333;
+    background-color: #cccccc;
 }
 
 .corpo .menuLateral{
@@ -70,10 +99,15 @@ body{
 }
 
 .corpo .conteudo{
-    width: 80%; 
+    width: 81.8%; 
     float: left;
+    background-color: #cccccc;
 
 }
+ 
+
+ 
+
 
 .menuLateral h2{
     margin: 20px;
@@ -99,11 +133,12 @@ body{
 
 
 .corpo .postagens{
-    width: 800px;
-    background: #ffff00;
+    width: 800px;  
+    background: #ffffff;
     margin: 0px auto;
     text-align: center;
     border: 1px solid #000000;
+    /*cor do fundo da postagem*/
 }
 
 
