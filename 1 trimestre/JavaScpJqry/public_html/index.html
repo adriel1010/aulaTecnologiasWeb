@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery-3.3.1.min.js" ></script>
+        
+
+
+        <script>
+            //sintaxe básica do jq
+            //só vai processar o código quando o documento estiver pronto "carregado"
+            $(document).ready(function () {
+                // alert("OK, tudo funcionando");
+
+
+                //    $(seletor).evento(function (){  });
+
+                $("#aba1").click(function () {
+                    $("#p1").fadeIn();
+                    $("#p2").fadeOut();
+                    $("#p3").fadeOut();
+
+                });
+
+                $("#aba2").click(function () {
+                    $("#p1").fadeOut();
+                    $("#p2").fadeIn();
+                    $("#p3").fadeOut();
+
+                });
+
+
+                $("#aba3").click(function () {
+                    $("#p1").fadeOut(3000);
+                    $("#p2").fadeOut(3000);
+                    $("#p3").fadeIn();
+
+                });
+
+            }
+            );
+
+
+        </script>
+
+
+        <!--  <style>
+              .aba{display: none;}
+              
+          </style>
+        -->    
+
+
+    </head>
+    <body>
+        <div>TODO write content</div>
+
+        <a href="#" id="aba1">Aba 1</a>
+        <a href="#" id="aba2">Aba 2</a>        
+        <a href="#" id="aba3">Aba 3</a>
+
+
+        <p id="p1" class="aba">Conteúdo do Parágrafo 1 </p>
+        <p id="p2" class="aba">IFPR - Instituto Federal do Paraná 2</p>
+        <p id="p3" class="aba">Content Aba 3</p>
+    </body>
+</html>
