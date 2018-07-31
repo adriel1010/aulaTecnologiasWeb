@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery-3.3.1.min.js" ></script>
+
+    </head>
+    <body>
+
+
+        <div style="width: 1100px;  margin: 0 auto;" class="centro">
+            <div class="galeria" style="display: flex;">
+                <div style="font-size: 100px; color: #ac29;" class="anterior"><i><<</i></div>
+                <div class="divimgprincipal">
+                    <img style=" width: 80%; height: 100%;" id="imgprincipal" src="">
+                </div>
+                <div style="font-size: 100px; color: #ac29;" class="proximo"> <i> >> </i></div>
+            </div>
+
+        </div>
+
+
+
+        <script type="text/javascript">
+
+
+            $(document).ready(function () {
+                var cont = 1;
+
+
+                $(".proximo").click(function () {
+                    cont += 1;
+                    alert('proximop' + cont);
+                });
+
+                $(".anterior").click(function () {
+                    cont -= 1;
+                    alert('ant '+cont );
+                });
+
+
+                 alert(cont);
+              /*  if (cont.valueOf() == 1) {
+                    alert('5');
+               //     $("img").attr("src", "https://i.ytimg.com/vi/fPT2CayfUjk/hqdefault.jpg")
+                }
+                if (cont.valueOf() == 2) {
+                    alert('2');
+                   // $("img").attr("src", "https://i.ytimg.com/vi/97nu1pp9xOU/maxresdefault.jpg")
+                }
+                if (cont.valueOf() == 3) {
+                    alert('3');                    
+                   // $("img").attr("src", "https://i.ytimg.com/vi/YttieDBjhXs/maxresdefault.jpg")
+                }
+                if (cont.valueOf() == 4) {
+                    alert('4');
+                   // $("img").attr("src", "https://www.carrosdub.com.br/wp-content/uploads/2016/07/newcivic-rebaixado-aro20-04-1.jpg")
+                }*/
+
+
+            });
+
+
+        </script>
+
+
+    </body> 
+
+
+
+</html>

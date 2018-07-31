@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Liga + Desliga + Quebra ao Clicar</title>
+
+  < src="js/jquery-3.3.1.js"> </>
+
+
+
+  < type="text/java">
+
+    $(document).ready(function () {
+
+
+
+      $("#desligado").click(function () {
+
+  // ao clicar o mouse no lugar
+
+        $("#desligado").attr("src", "http://i.stack.imgur.com/MRjsF.jpg");
+
+        $("#desligado").attr("id", "  ");
+
+
+
+      });
+
+
+
+      $("#desligado").mouseenter(function () {
+
+  // ao entrar o mouse no lugar
+
+        $("#desligado").attr("src", "http://i.stack.imgur.com/ybxlO.jpg")
+
+      });
+
+
+
+
+
+      $("#desligado").mouseleave(function () {
+
+  // ao sair o mouse de lugar
+
+        $("#desligado").attr("src", "http://i.stack.imgur.com/b983w.jpg")
+
+      });
+
+
+
+
+
+    });
+
+
+
+  </>
+
+
+
+</head>
+
+<body>
+
+  <img src="http://i.stack.imgur.com/b983w.jpg" id="desligado">
+
+
+
+</body>
+
+</html>
+

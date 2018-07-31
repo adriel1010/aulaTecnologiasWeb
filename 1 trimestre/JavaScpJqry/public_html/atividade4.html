@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery-3.3.1.min.js" ></script>
+
+    </head>
+    <body>
+
+        <img id="img" src="img/desliga.jpg" alt="Smiley face" > 
+
+        <script>
+ 
+            $(document).ready(function () {
+                $("#img").mouseenter(function () {
+                    $("#img").attr("src", "img/acende.jpg");
+                });
+                
+                $("#img").mouseleave(function () {
+                    $("#img").attr("src", "img/desliga.jpg");
+                });
+                
+                $("#img").click(function () {
+                    $("#img").attr("src", "img/quebrado.jpg");
+                    $("#img").attr("id", " ");
+                });
+                
+               
+
+
+            });
+
+
+
+
+
+
+        </script>           
+    </body> 
+
+
+
+</html>
