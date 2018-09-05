@@ -151,18 +151,38 @@ and open the template in the editor.
             <div id="formAcademico">
                 <form>
                     <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEscola">Nome</label>
-                            <input type="email" class="form-control" id="inputEscola" placeholder="Informe Seu Nome" required>
-
+                          <div class="form-group col-md-4">
+                            <label for="inputEnsinoBasico">Ensino Básico</label>
+                            <select id="inputEnsinoBasico" class="form-control">
+                                <option selected>Selecione</option>
+                                <option>Sim</option>               
+                                <option>Não</option> 
+                            </select>
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputDa">Sobre Nome</label>
-                            <input type="text" class="form-control" id="inputDa" placeholder="Informe Seu Sobrenome">
+                        
+                        <div class="form-group col-md-4">
+                            <label for="inputEnsinoSuperior">Ensino Superior</label>
+                            <select id="inputEnsinoBasico" class="form-control">
+                                <option selected>Selecione</option>
+                                <option>Sim</option>               
+                                <option>Não</option> 
+                            </select>
                         </div>
+                        
+                        <div class="form-group col-md-4">
+                            <label for="inputEnsinoEspecializacao">Ensino Especializações</label>
+                            <select id="inputEnsinoBasico" class="form-control">
+                                <option selected>Selecione</option>
+                                <option>Sim</option>               
+                                <option>Não</option> 
+                            </select>
+                        </div>
+                        
                     </div>
 
                 </form>
+                
+                  <button type="submit" id="botaoDadosBasico" class="btn btn-primary">Próximo</button>
 
             </div>
 
